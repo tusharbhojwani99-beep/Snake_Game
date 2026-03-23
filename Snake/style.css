@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body.snake {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:rgb(0, 0, 0);
+}
+
+#gameCanvas {
+    border: 2px solid #e5ff00;
+    border-radius: 12px;
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    color: rgb(161, 22, 31);
+    font-size: 38px;
+    padding-top: 16px;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 8px;
+}
+
+.score {
+    position: absolute;
+    top: 60px;
+    display: flex;
+    color: white;
+    font-size: 18px;
+}
+button{
+    margin-top: 380px;
+    margin-left: 20px;
+    font-size: larger;
+}
